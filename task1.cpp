@@ -30,5 +30,15 @@ int main(){
         cout<<i<<" ";
     }
 
+    cout<<endl <<"No key: ";
+    for(int i : indices2){
+        cout<<i<<" ";
+    }
+
+    cout<<endl <<"No occurences: ";
+    for(int i : indices3){
+        cout<<i<<" ";
+    }
+
     return 0;
 }
